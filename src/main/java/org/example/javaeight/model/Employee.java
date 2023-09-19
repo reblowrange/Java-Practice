@@ -1,17 +1,19 @@
-package org.example;
+package org.example.javaeight.model;
 
 import lombok.*;
 
+import java.util.Set;
+
 @Setter
 @Getter
-@AllArgsConstructor
-@NoArgsConstructor
+@RequiredArgsConstructor
 @ToString
 public class Employee {
-    private Long id;
-    private String name;
-    private Long Salary;
-    private EmployeDept employeeDept;
+    private final Long id;
+    private final String name;
+    private final Long Salary;
+    private final EmployeDept employeeDept;
+    private Set<Account> accounts;
 
     @Override
     public boolean equals(Object o) {
@@ -32,9 +34,3 @@ public class Employee {
     }
 }
 
-enum EmployeDept {
-    FINANCE,
-    MARKETING,
-    HUMAN_RESOURCE,
-    DEVELOPMENT
-}

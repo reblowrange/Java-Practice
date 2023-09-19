@@ -1,4 +1,8 @@
-package org.example;
+package org.example.threads;
+
+import org.example.threads.model.EntityOne;
+import org.example.threads.runners.EntityModifer;
+import org.example.threads.runners.EntityWriter;
 
 public class ThreadSharedResource {
     public static void main(String[] args) throws InterruptedException {

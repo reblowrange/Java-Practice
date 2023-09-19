@@ -1,9 +1,11 @@
-package org.example;
+package org.example.threads.runners;
+
+import org.example.threads.model.EntityOne;
 
 public class EntityWriter extends Thread {
     EntityOne entityOne;
 
-    EntityWriter(EntityOne entityOne) {
+    public EntityWriter(EntityOne entityOne) {
         this.entityOne = entityOne;
     }
 

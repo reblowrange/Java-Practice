@@ -1,17 +1,18 @@
-package org.example;
+package org.example.threads;
 
 import java.util.ArrayList;
 
 public class ThreadSequencial {
     private static volatile ArrayList<Integer> arr = new ArrayList<>();
+
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
             try {
 //                synchronized (arr) {
-                    for (int i = 0; i < 10; i++) {
-                        arr.add(i + 1);
-                        Thread.sleep(100);
-                    }
+                for (int i = 0; i < 10; i++) {
+                    arr.add(i + 1);
+                    Thread.sleep(100);
+                }
 //                }
             } catch (Exception e) {
                 System.out.println(e.getMessage());
@@ -24,9 +25,9 @@ public class ThreadSequencial {
         Thread t2 = new Thread(() -> {
             try {
 //                synchronized (arr) {
-                    for (int i = 0; i < 10; i++) {
-                        arr.add(i + 11);
-                        Thread.sleep(100);
+                for (int i = 0; i < 10; i++) {
+                    arr.add(i + 11);
+                    Thread.sleep(100);
 //                    }
                 }
             } catch (Exception e) {
@@ -38,12 +39,7 @@ public class ThreadSequencial {
 
         Thread t3 = new Thread(() -> {
             try {
-//                synchronized (arr) {
-                    System.out.println("Result: " + arr);
-//                    while (arr.size() < 20) {
-//                        Thread.sleep(50);
-//                    }
-//                }
+                System.out.println("Result: " + arr);
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

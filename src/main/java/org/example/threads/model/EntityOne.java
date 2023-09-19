@@ -1,4 +1,4 @@
-package org.example;
+package org.example.threads.model;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ public class EntityOne {
 
     private ArrayList<Integer> values= new ArrayList<>();
 
-    EntityOne(boolean flag) {
+    public EntityOne(boolean flag) {
         this.flag = flag;
     }
 

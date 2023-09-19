@@ -1,4 +1,4 @@
-package org.example;
+package org.example.threads;
 
 public class ThreadInterruption {
     public static void main(String[] args) throws InterruptedException {

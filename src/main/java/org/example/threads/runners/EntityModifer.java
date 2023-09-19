@@ -1,9 +1,11 @@
-package org.example;
+package org.example.threads.runners;
+
+import org.example.threads.model.EntityOne;
 
 public class EntityModifer extends Thread {
     EntityOne entityOne;
 
-    EntityModifer(EntityOne entityOne) {
+    public EntityModifer(EntityOne entityOne) {
         this.entityOne = entityOne;
     }
 
