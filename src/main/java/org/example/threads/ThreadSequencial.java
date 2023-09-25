@@ -49,9 +49,9 @@ public class ThreadSequencial {
         t1.join();
 
         t2.start();
-//        t2.join();
+        t2.join();
 
         t3.start();
-//        t3.join();
+        t3.join();
     }
 }
