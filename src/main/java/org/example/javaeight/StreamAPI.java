@@ -74,7 +74,7 @@ public class StreamAPI {
         // Find First
         sorted.stream()
                 .filter(s -> s.getName().startsWith("D"))
-                .findFirst().ifPresent(name -> System.out.println("findFirst() - Starts with 'H':" + name));
+                .findFirst().ifPresent(name -> System.out.println("findFirst() - Starts with 'D':" + name));
 
         // Distinct
         System.out.println("--- Distinct ---\n");
