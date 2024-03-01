@@ -23,7 +23,7 @@ public class Employee {
         Employee employee = (Employee) o;
 
         if (!name.equals(employee.name)) return false;
-        return employeeDept == employee.employeeDept;
+        return name.equals(employee.name);
     }
 
     @Override

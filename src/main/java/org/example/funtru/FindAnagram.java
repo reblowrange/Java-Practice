@@ -13,6 +13,7 @@ public class FindAnagram {
         Arrays.sort(sStr2);
         boolean flag = false;
         for (int i = 0; i < sStr1.length; i++) {
+            System.out.println(sStr1[i]  + " - "+ sStr2[i]);
             if (sStr1[i] != sStr2[i]) {
                 System.out.println("Strings are not anagram");
                 flag=true; break;

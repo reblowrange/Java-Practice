@@ -32,6 +32,9 @@ public class StreamAPI {
         }
     }
 
+    public static void main(String[] args) {
+        employeeStreamOperations(employees);
+    }
     // Method to get a random enum value
     public static <T extends Enum<?>> T getRandomEnum(Class<T> enumClass, Random random) {
         T[] enumValues = enumClass.getEnumConstants();
@@ -49,10 +52,6 @@ public class StreamAPI {
                 .toString();
     }
 
-    public static void main(String[] args) {
-        employeeStreamOperations(employees);
-    }
-
     private static Integer findMin(List<Integer> input) {
         Integer result = input.stream().min((x, y) -> x - y).get();
         System.out.println(input + " Min: " + result);
@@ -66,6 +65,9 @@ public class StreamAPI {
         List<Employee> sorted = input.stream().sorted((x, y) -> Long.compare(y.getSalary(), x.getSalary())).collect(Collectors.toList());
         sorted.forEach(System.out::println);
 
+        input.stream().sorted((x,y)->Long.compare(x.getSalary(),y.getSalary())).forEach(System.out::println);
+
+
         // Find any element that starts with the letter 'c'
         sorted.stream()
                 .filter(s -> s.getName().startsWith("C"))
@@ -78,6 +80,7 @@ public class StreamAPI {
 
         // Distinct
         System.out.println("--- Distinct ---\n");
+        System.out.println(employees.toString());
         employees.stream().distinct().forEach(System.out::println);
 
         // Reduce
