@@ -24,16 +24,22 @@ public class StreamAPI {
 
         for (int i = 0; i < 10; i++) {
             long salary = leftLimit + (long) (Math.random() * (rightLimit - leftLimit));
+            List<Long> mobileNos = Arrays.asList(generateRandomMobileNumber(), generateRandomMobileNumber());
             employees.add(new Employee(
                     Long.valueOf(i + 1),
                     getRandomString(),
                     salary,
-                    getRandomEnum(EmployeDept.class, random)));
+                    getRandomEnum(EmployeDept.class, random),
+                    mobileNos));
         }
     }
 
     public static void main(String[] args) {
         employeeStreamOperations(employees);
+    }
+
+    public static List<Employee> getEmployees(){
+        return employees;
     }
     // Method to get a random enum value
     public static <T extends Enum<?>> T getRandomEnum(Class<T> enumClass, Random random) {
@@ -52,6 +58,18 @@ public class StreamAPI {
                 .toString();
     }
 
+    private static long generateRandomMobileNumber() {
+        // Initialize a Random object
+        Random random = new Random();
+
+        // Generate a random 10-digit mobile number
+        long minMobileNumber = 1000000000L; // 10 digits starting from 1
+        long maxMobileNumber = 9999999999L; // 10 digits with all 9s
+        long range = maxMobileNumber - minMobileNumber + 1;
+        long randomMobileNumber = (long) (random.nextFloat() * range) + minMobileNumber;
+
+        return randomMobileNumber;
+    }
     private static Integer findMin(List<Integer> input) {
         Integer result = input.stream().min((x, y) -> x - y).get();
         System.out.println(input + " Min: " + result);

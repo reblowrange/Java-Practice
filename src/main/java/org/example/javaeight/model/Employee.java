@@ -2,11 +2,13 @@ package org.example.javaeight.model;
 
 import lombok.*;
 
+import java.util.List;
 import java.util.Set;
 
 @Setter
 @Getter
 @RequiredArgsConstructor
+@AllArgsConstructor
 @ToString
 public class Employee {
     private final Long id;
@@ -14,6 +16,7 @@ public class Employee {
     private final Long Salary;
     private final EmployeDept employeeDept;
     private Set<Account> accounts;
+    private final List<Long> mobileNo;
 
     @Override
     public boolean equals(Object o) {

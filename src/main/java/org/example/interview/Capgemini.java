@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class Cognizant {
+public class Capgemini {
         public static void main(String[] a) {
             //        Remove Duplicates from two list
             List<Integer> list1 = Arrays.asList(1,2,3,4,5,5,4);

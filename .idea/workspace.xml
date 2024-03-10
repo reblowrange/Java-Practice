@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910ee3e7-8a73-4095-8006-56d6fe272465" name="Changes" comment="- Added set example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Cognizant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/ITC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/CharacterOccurrenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/FindSecondMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadSingleAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads_two/BookTicketSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads_two/BookTicketTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads_two/SyncBlockTokenExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads_two/TestRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads_two/models/TicketStore.java" afterDir="false" />
+    <list default="true" id="910ee3e7-8a73-4095-8006-56d6fe272465" name="Changes" comment="Added Interview questions and Thread token and ticket example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Coforge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/EmployeeOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/InterLTI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/FindAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/funtru/FindAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/TestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview/Cognizant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Capgemini.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javaeight/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadSync.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +53,29 @@
       <recent name="org.example.javaeight.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.interview.ITC">
-    <configuration name="ITC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ITC" />
+  <component name="RunManager" selected="Application.Coforge">
+    <configuration name="Coforge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.Coforge" />
+      <module name="Practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.EmployeeOperations" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterLTI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.interview.InterLTI" />
       <module name="Practice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,32 +84,6 @@
     <configuration name="InterOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterOne" />
       <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.javaeight.StreamAPI" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.javaeight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyncBlockTokenExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.threads_two.SyncBlockTokenExample" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.threads_two.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Coforge" />
+        <item itemvalue="Application.InterLTI" />
+        <item itemvalue="Application.EmployeeOperations" />
         <item itemvalue="Application.org.example.interview.ITC" />
         <item itemvalue="Application.InterOne" />
-        <item itemvalue="Application.ITC" />
-        <item itemvalue="Application.SyncBlockTokenExample" />
-        <item itemvalue="Application.StreamAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706566017318</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Interview questions and Thread token and ticket example">
+      <option name="closed" value="true" />
+      <created>1709324137052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709324137052</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,7 +179,8 @@
     <MESSAGE value="Refactored" />
     <MESSAGE value="Added/Update Examples" />
     <MESSAGE value="- Added set example" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added set example" />
+    <MESSAGE value="Added Interview questions and Thread token and ticket example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Interview questions and Thread token and ticket example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -198,12 +192,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="NONE" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java</url>
-          <line>65</line>
+          <line>83</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java</url>
-          <line>81</line>
+          <line>99</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
