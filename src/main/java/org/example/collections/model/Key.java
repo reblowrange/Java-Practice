@@ -1,9 +1,6 @@
-package org.example.funtru.model;
+package org.example.collections.model;
 
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
-import java.util.Objects;
 
 @AllArgsConstructor
 public class Key {

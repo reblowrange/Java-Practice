@@ -1,4 +1,4 @@
-package org.example.funtru;
+package org.example.collections;
 
 import java.util.Arrays;
 

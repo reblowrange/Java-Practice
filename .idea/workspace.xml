@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910ee3e7-8a73-4095-8006-56d6fe272465" name="Changes" comment="Added Interview questions and Thread token and ticket example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Coforge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/EmployeeOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/InterLTI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MaheshJadhavInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8FunctionalInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PracticeOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gitclone/GitCloneCli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gitclone/GitCloneEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/EmployeeStreamOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview/Cognizant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Capgemini.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/ComparableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/ComparableImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/FindAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/FindAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/HashMapWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/HashMapWorking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/SetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/SetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/model/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/model/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/model/EmpComparatorByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/model/EmpComparatorByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/model/EmpCompareById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/model/EmpCompareById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/funtru/model/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/model/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview/Coforge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/Coforge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interview/EmployeeOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interview/EmployeeOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javaeight/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/javaeight/model/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/javaeight/model/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadSingleAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadSingleAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/threads_two/SyncBlockTokenExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/threads_two/SyncBlockTokenExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +45,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;reblowrange&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/reblowrange/Java-Practice.git&quot;,
+    &quot;accountId&quot;: &quot;2394aa51-f752-4d51-9369-b0344f3347ab&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -40,12 +68,28 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.BookTicketSync.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Coforge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparableImpl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ITC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Java8FunctionalInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PracticeOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SyncBlockTokenExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSharedResource.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadSingleAccess.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/installed_sw/corretto-1.8.0_432&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/dev/workspace/Practice/Practice/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -53,20 +97,13 @@
       <recent name="org.example.javaeight.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Coforge">
-    <configuration name="Coforge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.Coforge" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmployeeOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.EmployeeOperations" />
+  <component name="RunManager" selected="Application.Java8FunctionalInterface">
+    <configuration name="ComparableImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.ComparableImpl" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,26 +111,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterLTI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.InterLTI" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterOne" />
-      <module name="Practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.interview.ITC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.interview.ITC" />
+    <configuration name="Java8FunctionalInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java8FunctionalInterface" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.interview.*" />
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PracticeOne" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.javaeight.StreamAPI" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.javaeight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncBlockTokenExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.threads_two.SyncBlockTokenExample" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.threads_two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Coforge" />
-        <item itemvalue="Application.InterLTI" />
-        <item itemvalue="Application.EmployeeOperations" />
-        <item itemvalue="Application.org.example.interview.ITC" />
-        <item itemvalue="Application.InterOne" />
+        <item itemvalue="Application.Java8FunctionalInterface" />
+        <item itemvalue="Application.PracticeOne" />
+        <item itemvalue="Application.StreamAPI" />
+        <item itemvalue="Application.ComparableImpl" />
+        <item itemvalue="Application.SyncBlockTokenExample" />
       </list>
     </recent_temporary>
   </component>
@@ -191,14 +253,19 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="NONE" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/javaeight/EmployeeStreamOperations.java</url>
           <line>83</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/javaeight/StreamAPI.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/javaeight/EmployeeStreamOperations.java</url>
           <line>99</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/interview/Coforge.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

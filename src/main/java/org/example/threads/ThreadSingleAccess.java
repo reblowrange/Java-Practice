@@ -1,7 +1,7 @@
 package org.example.threads;
 
 public class ThreadSingleAccess {
-    static int token = 1;
+    volatile static int token = 1;
 
     public static void main(String a[]) {
         Thread t1 = new Thread(() -> {

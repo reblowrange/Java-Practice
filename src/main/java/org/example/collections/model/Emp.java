@@ -1,6 +1,5 @@
-package org.example.funtru.model;
+package org.example.collections.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;

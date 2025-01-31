@@ -18,7 +18,7 @@ public class SyncBlockTokenExample implements Runnable {
 
     @Override
     public void run() {
-//        synchronized (this) {
+        synchronized (this) {
             Thread t = Thread.currentThread();
             String name = t.getName();
             System.out.println(token + ".....alloted to " + name);
@@ -28,6 +28,6 @@ public class SyncBlockTokenExample implements Runnable {
                 throw new RuntimeException(e);
             }
             token++;
-//        }
+        }
     }
 }

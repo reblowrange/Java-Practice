@@ -1,6 +1,6 @@
-package org.example.funtru;
+package org.example.collections;
 
-import org.example.funtru.model.Key;
+import org.example.collections.model.Key;
 
 import java.util.HashMap;
 import java.util.Map;

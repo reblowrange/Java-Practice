@@ -1,4 +1,4 @@
-package org.example.funtru.model;
+package org.example.collections.model;
 
 import java.util.Comparator;
 
